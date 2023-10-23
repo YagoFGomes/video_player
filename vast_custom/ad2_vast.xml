@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<VAST xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:noNamespaceSchemaLocation="vast.xsd">
+    <Ad id="pre-roll">        <InLine>            <AdSystem><![CDATA[CENTRAL PRESS ADS]]></AdSystem>
+                <AdTitle><![CDATA[video]]></AdTitle>
+                    <Description><![CDATA[Inline Video Ad]]></Description><Impression id="primaryAdServer"><![CDATA[https://ad2.centralpress.pt/www/delivery/lg.php?bannerid=94&campaignid=32&zoneid=26&cb=57758ba646]]></Impression>
+                    <Creatives><Creative sequence="1" id="94"><Linear>
+                    <Duration>00:00:16</Duration>
+                    
+                    <VideoClicks>
+                        <ClickThrough><![CDATA[https://ad2.centralpress.pt/www/delivery/cl.php?bannerid=94&zoneid=26&sig=835d780fdf35a8b8aec0fc83eff5d0852a008a3bb7fef3ac2ecf0373222f7cf2&dest=https%3A%2F%2Fcentralpress.pt]]></ClickThrough>
+                    </VideoClicks>
+                    <MediaFiles>
+                        <MediaFile delivery="progressive" bitrate="400" width="640" height="480" type="video/mp4"><![CDATA[https://ad2.centralpress.pt/cpads/ad.mp4]]></MediaFile>
+                    </MediaFiles>
+                <TrackingEvents>
+                    <Tracking event="start"><![CDATA[https://ad2.centralpress.pt/www/delivery/fc.php?script=videoAds:vastEvent&bannerid=94&zoneid=26&event=start]]></Tracking>
+                    <Tracking event="midpoint"><![CDATA[https://ad2.centralpress.pt/www/delivery/fc.php?script=videoAds:vastEvent&bannerid=94&zoneid=26&event=midpoint]]></Tracking>
+                    <Tracking event="firstQuartile"><![CDATA[https://ad2.centralpress.pt/www/delivery/fc.php?script=videoAds:vastEvent&bannerid=94&zoneid=26&event=firstquartile]]></Tracking>
+                    <Tracking event="thirdQuartile"><![CDATA[https://ad2.centralpress.pt/www/delivery/fc.php?script=videoAds:vastEvent&bannerid=94&zoneid=26&event=thirdquartile]]></Tracking>
+                    <Tracking event="complete"><![CDATA[https://ad2.centralpress.pt/www/delivery/fc.php?script=videoAds:vastEvent&bannerid=94&zoneid=26&event=complete]]></Tracking>
+                    <Tracking event="mute"><![CDATA[https://ad2.centralpress.pt/www/delivery/fc.php?script=videoAds:vastEvent&bannerid=94&zoneid=26&event=mute]]></Tracking>
+                    <Tracking event="pause"><![CDATA[https://ad2.centralpress.pt/www/delivery/fc.php?script=videoAds:vastEvent&bannerid=94&zoneid=26&event=pause]]></Tracking>
+                    <Tracking event="replay"><![CDATA[https://ad2.centralpress.pt/www/delivery/fc.php?script=videoAds:vastEvent&bannerid=94&zoneid=26&event=replay]]></Tracking>
+                    <Tracking event="fullscreen"><![CDATA[https://ad2.centralpress.pt/www/delivery/fc.php?script=videoAds:vastEvent&bannerid=94&zoneid=26&event=fullscreen]]></Tracking>
+                    <Tracking event="stop"><![CDATA[https://ad2.centralpress.pt/www/delivery/fc.php?script=videoAds:vastEvent&bannerid=94&zoneid=26&event=stop]]></Tracking>
+                    <Tracking event="unmute"><![CDATA[https://ad2.centralpress.pt/www/delivery/fc.php?script=videoAds:vastEvent&bannerid=94&zoneid=26&event=unmute]]></Tracking>
+                   <Tracking event="resume"><![CDATA[https://ad2.centralpress.pt/www/delivery/fc.php?script=videoAds:vastEvent&bannerid=94&zoneid=26&event=resume]]></Tracking>
+                </TrackingEvents></Linear></Creative></Creatives>
+
+                        </InLine>
+    </Ad>
+
+</VAST>
