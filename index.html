@@ -21,7 +21,7 @@
 					parentId:"myDiv",
 					playlistsId:"playlists",
 					mainFolderPath:"content",
-					skinPath:"metal_skin_dark",
+					skinPath:"modern_skin_dark",
 					displayType:"fullscreen",
 					initializeOnlyWhenVisible:"no",
 					fillEntireposterScreen:"yes",
@@ -68,9 +68,9 @@
 					logoPath:"",
 					logoMargins:10,
 					//playlists/categories settings
-					showPlaylistsSearchInput:"yes",
-					usePlaylistsSelectBox:"yes",
-					showPlaylistsButtonAndPlaylists:"yes",
+					showPlaylistsSearchInput:"no",
+					usePlaylistsSelectBox:"no",
+					showPlaylistsButtonAndPlaylists:"no",
 					showPlaylistsByDefault:"no",
 					thumbnailSelectedType:"opacity",
 					startAtPlaylist:0,
@@ -82,7 +82,7 @@
 					inputBackgroundColor:"#333333",
 					inputColor:"#999999",
 					//playlist settings
-					showPlaylistButtonAndPlaylist:"yes",
+					showPlaylistButtonAndPlaylist:"no",
 					playlistPosition:"right",
 					showPlaylistByDefault:"yes",
 					showPlaylistName:"yes",
@@ -138,10 +138,10 @@
 					showTime:"yes",
 					showAudioTracksButton:"yes",
 					showQualityButton:"yes",
-					showInfoButton:"yes",
-					showDownloadButton:"yes",
+					showInfoButton:"no",
+					showDownloadButton:"no",
 					showShareButton:"yes",
-					showEmbedButton:"yes",
+					showEmbedButton:"no",
 					showChromecastButton:"no",
 					show360DegreeVideoVrButton:"no",
 					showFullScreenButton:"yes",
@@ -162,7 +162,7 @@
 					volumeScrubberHeight:80,
 					volumeScrubberOfsetHeight:12,
 					timeColor:"#888888",
-					showYoutubeRelAndInfo:"no",
+					showYoutubeRelAndInfo:"yes",
 					youtubeQualityButtonNormalColor:"#888888",
 					youtubeQualityButtonSelectedColor:"#FFFFFF",
 					scrubbersToolTipLabelBackgroundColor:"#FFFFFF",
@@ -266,8 +266,7 @@
 		
 		<!--  Playlists -->
 			<ul id="playlists" style="display:none;">
-	
-			
+
 				<li data-source="mixedPlaylist" data-playlist-name="MY MIXED PLAYLIST 1" data-thumbnail-path="content/thumbnails/p-mixed.jpg">
 					<p class="fwduvp-categories-title"><span class="fwduvp-header">Title: </span><span class="fwduvp-title">My mixed playlist 1</span></p>
 					<p class="fwduvp-categories-type"><span class="fwduvp-header">Type: </span>MIXED</p>
@@ -282,7 +281,8 @@
 			<!--  HTML mixed playlist -->
 			<ul id="mixedPlaylist" style="display:none;">
 					
-				<li data-thumb-source="https://i.ytimg.com/vi/YkoeoVNjnjY/hqdefault.jpg" data-video-source="https://www.youtube.com/watch?v=AaEvYRn8wa4" data-poster-source="https://i.ytimg.com/vi/YkoeoVNjnjY/hqdefault.jpg" data-downloadable="no" data-vast-url="content/vast/vast-pod-1.xml" data-vast-clicktrough-target="_blank" data-vast-linear-astart-at-time="00:00:00" >
+				<!-- <li data-thumb-source="https://i.ytimg.com/vi/YkoeoVNjnjY/hqdefault.jpg" data-video-source="https://www.youtube.com/watch?v=AaEvYRn8wa4" data-poster-source="https://i.ytimg.com/vi/YkoeoVNjnjY/hqdefault.jpg" data-downloadable="no" data-vast-url="vast_custom/ad2_vast.xml" data-vast-clicktrough-target="_blank" data-vast-linear-astart-at-time="00:00:00" > -->
+				<li data-thumb-source="https://i.ytimg.com/vi/YkoeoVNjnjY/hqdefault.jpg" data-video-source="https://www.youtube.com/watch?v=AaEvYRn8wa4" data-poster-source="https://i.ytimg.com/vi/YkoeoVNjnjY/hqdefault.jpg" data-downloadable="no" data-vast-url="https://ad2.centralpress.pt/www/delivery/fc.php?script=apVideo:vast2&zoneid=26" data-vast-clicktrough-target="_blank" data-vast-linear-astart-at-time="00:00:00" >
 					<div data-video-short-description="">
 						<div>
 							<p class="fwduvp-thumbnail-title">Cpress</p>
@@ -297,23 +297,6 @@
 						</div>
 					</div>
 				</li>
-
-				<!-- <li data-thumb-source="content/thumbnails/earth2-thumbnail.jpg" data-video-source="content/videos/earth.mp4" data-poster-source="content/posters/earth-poster.jpg" data-downloadable="no" data-vast-url="content/vast/vast-pod.xml" data-vast-clicktrough-target="_blank" data-vast-linear-astart-at-time="00:00:00">
-					<div data-video-short-description="">
-						<div>
-							<p class="fwduvp-thumbnail-title">VAST & VMAP</p>
-							<p class="fwduvp-thumbnail-description">Support for VAST & VMAP<span style='color:#FFFFFF'> "Video Ad Serving Template"</span> pre-roll, mid-roll, post roll with unique functionality.</p>
-						</div>	
-					</div>
-					<div data-video-long-description="">
-						<div>
-							<p class="fwduvp-video-title">VAST & VMAP</p>
-							<p class="fwduvp-video-main-description">Each video can contain a detailed description, the description can be formatted with CSS as you like. The description window and description button can be disabled individually for each video or globally for all video.</p>
-							<p class="fwduvp-link">For more information about this please follow <a href="http://www.webdesign-flash.ro/p/s3dcov/" target="_blank">this link</a></p>
-						</div>
-					</div>
-				</li> -->
-
 				
 			</ul>
 			
